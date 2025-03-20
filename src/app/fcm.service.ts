@@ -1,8 +1,8 @@
+import { firebaseConfig, vapid_key } from './auth/authentication';
 // src/app/fcm.service.ts
 import { Injectable } from '@angular/core';
 import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 import { initializeApp } from 'firebase/app';
-import { firebaseConfig, vapid_key } from '../auth/authentification';
 
 @Injectable({
   providedIn: 'root',
