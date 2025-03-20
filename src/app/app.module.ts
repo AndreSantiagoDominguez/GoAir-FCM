@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { initializeApp } from 'firebase/app';
 import { getMessaging } from 'firebase/messaging';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+import { NavbarComponent } from './ui/shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
